@@ -1,4 +1,18 @@
 # radar_svm
+
+### 使用方法
+
+#### 1. 使用 1_collect_data.py 对训练数据进行采集
+
+
+#### 2. 训练：2_train_svm.py
+
+#### 3. 实时推理：3_realtime_inference.py
+
+
+
+
+# 原理介绍
 基于svm方法的雷达点云人体姿态识别项目
 
 基于统计特征的机器学习SVM方法
