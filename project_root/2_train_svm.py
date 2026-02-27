@@ -59,3 +59,6 @@ scaler_path = os.path.join(weights_dir, 'radar_scaler.pkl')
 joblib.dump(svm_model, model_path)
 joblib.dump(scaler, scaler_path)
 print(f"\n✅ 模型已保存至: {weights_dir}")
+print("你可以运行 3_realtime_inference.py 来加载模型并进行实时推理了！")
+print("10维度不一定够用，后续可以考虑增加更多特征（如点云分布特征、历史统计特征等）来提升模型性能。" \
+"增加时间维度的特征（如移动平均、差分等）通常对动态事件（如跌倒）非常有帮助。")

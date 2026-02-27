@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Data and model weights (avoid committing large/raw data)
+data/
+hardware_collection/data/
+project_root/data/
+weights/
+hardware_collection/weights/
+
+# Python packaging
+dist/
+build/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+
+# Logs and OS files
+*.log
+.DS_Store
