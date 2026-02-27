@@ -2,7 +2,7 @@ import serial
 import time
 
 # --- 配置 ---
-SERIAL_PORT = '/dev/ttyACM1'  # 串口号
+SERIAL_PORT = '/dev/ttyACM0'  # 串口号
 BAUD_RATE = 9600              # 波特率
 
 def read_remote_robust():
