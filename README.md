@@ -1,5 +1,8 @@
 # 雷达点云人体姿态识别 (Radar SVM)
 
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 基于 SVM 方法的雷达点云人体姿态识别项目，通过 10 维特征工程实现对人体站立、坐下、跌倒等姿态的实时检测。
 
 ## 项目概述
@@ -225,3 +228,15 @@ sudo lsof | grep ttyACM
         - 增加时间戳字段、采样元信息（设备 ID、固件版本）
         - 将采集脚本包装为 systemd 服务或容器，便于边缘设备部署并做日志旋转
         - 添加自动分文件轮转与压缩，避免单个 CSV 过大
+
+---
+
+## 许可证
+
+本项目采用 [MIT License](LICENSE) 开源许可证。
+
+---
+
+## 联系方式
+
+如有问题或建议，欢迎提交 Issue 或 Pull Request。
